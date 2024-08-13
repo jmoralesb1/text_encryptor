@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Incriptador de Textos</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="logo">
-                <img class="logoImg" src="Logo.png" alt="Logo de inteligencia">
+                <img class="logoImg" src="./images/Logo.png" alt="Logo de inteligencia">
                 <h1 class="titulo">Encriptador de mensajes</h1>
             </div>
 
@@ -19,7 +19,7 @@
             </div>
 
             <div class="ladoDerecho">
-                <img src="Muñeco.png" alt="Muñeco derecho" id="imagenDerecha">
+                <img src="./images/Muñeco.png" alt="Muñeco derecho" id="imagenDerecha">
                 <h1 id="tituloDerecho">Ningún mensaje fue encontrado</h1>
                 <textarea class="texto_area" name="resultado" id="textoDesencriptado" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar.</textarea>
                 <button type="button" id="botonCopiar">Copiar</button>
@@ -32,7 +32,7 @@
             </div>
         </div>
     </body>
-    
+
     <script>
         var btn = document.querySelector("#botonEncriptado");
         btn.onclick = encriptar;
